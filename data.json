@@ -1,0 +1,135 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?"
+            ],
+            "responses": [
+                "We sell coffee and tea",
+                "We have coffee and tea"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Do you take credit cards?",
+                "Do you accept Mastercard?",
+                "Can I pay with Paypal?",
+                "Are you cash only?"
+            ],
+            "responses": [
+                "We accept VISA, Mastercard and Paypal",
+                "We accept most major credit cards, and Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "How long does delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?"
+            ],
+            "responses": [
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+            ]
+        },
+        {
+            "tag": "capabilities",
+            "patterns": [
+                "What can you do?",
+                "Tell me about your capabilities",
+                "What services do you provide?"
+            ],
+            "responses": [
+                "I can assist you with information, answer questions, and provide recommendations.",
+                "My capabilities include answering queries, providing information, and offering assistance on various topics."
+            ]
+        },
+        {
+            "tag": "personal_info",
+            "patterns": [
+                "Tell me about yourself",
+                "What's your background?",
+                "Who are you?",
+                "what is your name"
+            ],
+            "responses": [
+                "I am a virtual assistant designed to help and provide information.",
+                "I am a chatbot created to assist and engage in conversations with users.",
+                "You can call me Jarvis"
+            ]
+        },
+        {
+            "tag": "availability",
+            "patterns": [
+                "When are you available?",
+                "What are your operating hours?",
+                "When can I chat with you?"
+            ],
+            "responses": [
+                "I am available 24/7 to assist you.",
+                "You can chat with me anytime you need help or information."
+            ]
+        }
+    ]
+}
